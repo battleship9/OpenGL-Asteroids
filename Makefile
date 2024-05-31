@@ -16,7 +16,7 @@ DOCSDIR	= docs
 
 BINDIR	= bin
 DEPSDIR = deps
-MKDIRS	= $(CURDIR)/{$(BINDIR),$(DEPSDIR)}
+MKDIRS	= $(CURDIR)/$(BINDIR) $(CURDIR)/$(DEPSDIR)
 
 TARGET	= Asteroids
 SRCS	= main.c ship.c asteroid.c game.c
